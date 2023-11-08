@@ -3,7 +3,7 @@ import axios from 'axios';
 import ImageCard from './components/ImageCard';
 import ImageModal from './components/ImageModal';
 import {  FaSpinner  } from 'react-icons/fa';
-import Header from './components/Header';
+import Header from './components/header';
 import './App.css';
 
 function App() {
@@ -178,7 +178,7 @@ function App() {
 
 
     {/* Logic for showing a sinle photo.....  */}
-    
+
       {selectedImage && (
         <ImageModal
           url={selectedImage.url}

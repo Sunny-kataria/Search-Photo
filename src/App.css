@@ -1,7 +1,3 @@
-/* App.css */
-.suggested-queries {
-  /* ... */
-}
 
 .suggested-queries {
   @apply border border-gray-300 max-h-200 overflow-y-auto;

@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 
 const ImageCard = ({ id, title, url, onClick }) => {
