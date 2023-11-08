@@ -178,7 +178,6 @@ function App() {
 
 
     {/* Logic for showing a sinle photo.....  */}
-
       {selectedImage && (
         <ImageModal
           url={selectedImage.url}
